@@ -1,6 +1,6 @@
 // postgresにアクセス
 // DBには繋がらないので、\cで繋ぐ
-$ docker exec -it ch07-db psql -U gwp gwp
+$ docker exec -it ch08-db psql -U gwp gwp
 
 // DB一覧取得
 gwp=# \l
