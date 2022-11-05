@@ -18,4 +18,7 @@ RUN go install github.com/uudashr/gopkgs/v2/cmd/gopkgs@latest && \
     go install github.com/josharian/impl@latest && \
     go install golang.org/x/tools/gopls@latest && \
     go install github.com/haya14busa/goplay/cmd/goplay@latest && \
-    go install honnef.co/go/tools/cmd/staticcheck@latest
+    go install honnef.co/go/tools/cmd/staticcheck@latest && \
+    go install gopkg.in/check.v1@latest && \
+    go install github.com/onsi/ginkgo/ginkgo@latest && \
+    go install github.com/onsi/gomega@latest
